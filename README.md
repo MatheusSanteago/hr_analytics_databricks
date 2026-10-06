@@ -1,23 +1,25 @@
 # HR Analytics
-# Stack
-Databricks, SQL, PySpark
 
-# 🌱 Data Source
+#### Overview
+This project provides a comprehensive HR Analytics solution designed to track and analyze employee data, employment history, and time tracking.
+
+
+#### Stack
+- Databricks
+- SQL
+- PySpark
+
+# Data Source
 
 Generated with AI via Tonic Fabricate.
 https://fabricate.tonic.ai/
 
-### Tables
-  
-  #### - Workers
-  Contains personal data, country-specific documents (e.g., CPF, SSN), organizational structure, and hierarchy. It also tracks employee status (terminated or on leave) and links to the time tracking system via `ADP_Badge_ID`.
-  
-  #### - Events
-  Tracks employment history, including hiring, role changes, and salary adjustments. It includes annual adjustments on April 1st, as well as events with "In Progress", "Denied", and "Rescinded" statuses.
-  
-  #### - Time Tracking (Batida de Ponto)
-  Records clock-in/out events, including type, origin (clock, app, web, manual), location, and time zone. It accounts for holidays, vacations, absences, and overtime, as well as manual adjustments and pending approvals.
+### Data Structure
+The solution utilizes three primary tables:
+- **Workers:** Manages personal data, organizational hierarchy, and links to time tracking.
+- **Events:** Tracks employment lifecycle events such as hiring, role changes, and salary adjustments.
+- **Time Tracking:** Records clock-in/out events, accounting for holidays, overtime, and manual adjustments.
 
-# ✍🏾 Data Solution
+### Data Solution
 
 <img width="1067" height="294" alt="Data Solution" src="https://github.com/user-attachments/assets/d571ed21-607c-4689-889e-a7eeb6123abc" />
