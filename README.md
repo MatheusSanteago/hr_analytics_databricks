@@ -23,3 +23,10 @@ The solution utilizes three primary tables:
 ### Data Solution
 
 <img width="1067" height="294" alt="Data Solution" src="https://github.com/user-attachments/assets/d571ed21-607c-4689-889e-a7eeb6123abc" />
+
+### Ingestion Pipeline 
+
+The Data are being ingested from Google Drive via Databricks Google Drive Connector 
+
+<img width="1749" height="941" alt="Screenshot 2026-10-05 at 23 14 40" src="https://github.com/user-attachments/assets/030670d0-aadf-4833-b95a-1f31227f234a" />
+
