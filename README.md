@@ -30,3 +30,4 @@ The Data are being ingested from Google Drive via Databricks Google Drive Connec
 
 <img width="1749" height="941" alt="Screenshot 2026-10-05 at 23 14 40" src="https://github.com/user-attachments/assets/030670d0-aadf-4833-b95a-1f31227f234a" />
 
+<img width="1685" height="898" alt="image" src="https://github.com/user-attachments/assets/7a4e22bf-e12d-41e4-9701-4401915c59cd" />
